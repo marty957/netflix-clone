@@ -20,6 +20,7 @@ $myFont: (
 
 // 4. Include any default map overrides here
 $font-sizes: map-merge($font-sizes, $myFont);
+
 // 5. Include remainder of required parts
 @import "../../bootstrap/maps";
 @import "../../bootstrap/mixins";
